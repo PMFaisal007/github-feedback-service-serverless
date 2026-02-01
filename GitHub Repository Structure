@@ -1,0 +1,24 @@
+serverless-feedback-system/
+│
+├── frontend/
+│   ├── index.html
+│   ├── assets/
+│   └── README.md
+│
+├── backend/
+│   ├── lambda/
+│   │   └── submit_feedback.py
+│   ├── api-gateway/
+│   │   └── api-config.json
+│   └── README.md
+│
+├── infrastructure/
+│   ├── architecture.png
+│   └── iam-policies.json
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
+├── README.md
+└── LICENSE
